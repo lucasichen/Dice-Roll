@@ -1,0 +1,13 @@
+import random
+
+def main():
+        while True:
+            
+            user = input("Enter 'Y' to roll dice or 'N' to exit: ")
+            if user == "y":
+                roll = random.randint(1,6) #roll a number form 1 to 6
+                print("\nYou rolled a ", roll)
+                pass
+            else:
+                exit()
+main()
